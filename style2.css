@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(184, 184, 166);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(70, 70, 170);
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+.swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .sections-container {
+    display: flex;
+  }
+  .slaider1, .slaider2, .slaider3{
+    background-color: rgb(43, 226, 211);
+}
+  
